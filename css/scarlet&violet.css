@@ -1,0 +1,64 @@
+.containerS-l {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: silver;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardS-L {
+  flex: 1;
+  margin: 10px;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: silver;
+}
+
+.cardS-L img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+#h1 {
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Căn giữa theo chiều dọc */
+  background-color: brown;
+
+}
+
+@media screen and (max-width: 768px) {
+  .containerS-l {
+    width: 100%;
+    display: block;
+    justify-items: center;
+    float: left;
+    
+  }
+
+  .row {
+    display: block;
+  }
+
+  .cardS-L {
+    width: 40%;
+    float: left;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+  }
+  .cardS-L img{
+    margin-top: 10px;
+  }
+}

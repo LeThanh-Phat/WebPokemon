@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" href="css/header-menu.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/pokedex.css">
+</head>
+
+<body>
+
+    <!-- div cua logo -->
+    <div>
+        <img src="image/logo.jpg" alt="" class="logo">
+    </div>
+
+    <!-- div cua menu -->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">
+          <div class="imagemenu">
+            <img src="image/IconMenu.png" alt="">
+            Home
+          </div>
+        </a>
+        <a href="Pokedex.html" class="active">
+          <div class="imagemenu">
+            <img src="image/Iconmenu2.png" alt="">
+            PokeDex
+          </div>
+        </a>
+        <a href="PokemonCards.html" class="active">
+          <div class="imagemenu">
+            <img src="image/Iconmenu3fix.png">
+            Pokemon Cards
+          </div>
+        </a>
+        <a href="trainer.html" class="active" id="seri">
+          <div class="imagemenu">
+            <img src="image/Iconmenu4.png" alt="">
+            Trainer card
+          </div>
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <!-- content -->
+    <div>
+        <table>
+            <tr>
+                <th>Hình</th>
+                <th>Thứ tự</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Chỉ số</th>
+                <th>Hp</th>
+                <th>Attack</th>
+                <th>Defence</th>
+                <th>Sp.atk</th>
+                <th>Sp.def</th>
+                <th>Speed</th>
+            </tr>
+            <tr id="1">
+                <td><img src="image/Pokedex/bulbasaur.avif" alt="" class="imagePoke"></td>
+                <td>1</td>
+                <td>Bulbasaur</td>
+                <td><button type="button" value="GRASS" class="buttongrass">GRASS</button>
+                    <button type="button" value="POISON" class="buttonpoison">POISON</button></td>
+                <td>318</td>
+                <td>45</td>
+                <td>49</td>
+                <td>49</td>
+                <td>65</td>
+                <td>65</td>
+                <td>45</td>
+            </tr>
+            <tr id="2">
+                <td><img src="image/Pokedex/ivysaur.avif" alt="" class="imagePoke"></td>
+                <td>2</td>
+                <td>Ivysaur</td>
+                <td><button type="button" value="GRASS" class="buttongrass">GRASS</button>
+                    <button type="button" value="POISON" class="buttonpoison">POISON</button></td>    						
+                <td>405</td>
+                <td>60</td>
+                <td>62</td>
+                <td>63</td>
+                <td>80</td>
+                <td>80</td>
+                <td>60</td>
+            </tr>
+            <tr id="3">
+                <td><img src="image/Pokedex/venusaur.avif" alt="" class="imagePoke"></td>
+                <td>3</td>
+                <td>Venusaur</td>
+                <td><button type="button"  class="buttongrass">GRASS</button>
+                    <button type="button" class="buttonpoison">POISON</button></td>
+                <td>525</td>						
+                <td>80</td>
+                <td>82</td>
+                <td>83</td>
+                <td>100</td>
+                <td>100</td>
+                <td>80</td>
+            </tr>
+            <tr id="4">
+                <td><img src="image/Pokedex/charmander.avif" alt="" class="imagePoke"></td>
+                <td>4</td>
+                <td>Charmander</td>
+                <td><button type="button" class="buttonfire">FIRE</button>
+                <td>309</td>						
+                <td>39</td>
+                <td>52</td>
+                <td>43</td>
+                <td>60</td>
+                <td>50</td>
+                <td>65</td>
+            </tr>
+            <tr id="5">
+                <td><img src="image/Pokedex/charmeleon.avif" alt="" class="imagePoke"></td>
+                <td>5</td>
+                <td>Charmeleon</td>
+                <td><button type="button" class="buttonfire">FIRE</button>
+                <td>405</td>						
+                <td>58</td>
+                <td>64</td>
+                <td>58</td>
+                <td>80</td>
+                <td>65</td>
+                <td>80</td>
+            </tr>
+            <tr id="6">
+                <td><img src="image/Pokedex/charizard.avif" alt="" class="imagePoke"></td>
+                <td>6</td>
+                <td>Charizard</td>
+                <td><button type="button" class="buttonfire">FIRE</button>
+                    <button type="button" class="buttonfly">FLY</button></td>
+                <td>534</td>						
+                <td>78</td>
+                <td>84</td>
+                <td>78</td>
+                <td>109</td>
+                <td>85</td>
+                <td>100</td>
+            </tr>
+            <tr id="7">
+                <td><img src="image/Pokedex/squirtle.avif" alt="" class="imagePoke"></td>
+                <td>7</td>
+                <td>Squirtle</td>
+                <td><button type="button" class="buttonwater">WATER</button>
+                <td>314</td>						
+                <td>44</td>
+                <td>48</td>
+                <td>65</td>
+                <td>50</td>
+                <td>64</td>
+                <td>43</td>
+            </tr>
+            <tr id="8">
+                <td><img src="image/Pokedex/wartortle.avif" alt="" class="imagePoke"></td>
+                <td>8</td>
+                <td>Wartortle</td>
+                <td><button type="button" class="buttonwater">WATER</button></td>
+                <td>405</td>						
+                <td>59</td>
+                <td>63</td>
+                <td>80</td>
+                <td>65</td>
+                <td>80</td>
+                <td>58</td>
+            </tr>
+            <tr id="9">
+                <td><img src="image/Pokedex/blastoise.avif" alt="" class="imagePoke"></td>
+                <td>9</td>
+                <td>Blastoise</td>
+                <td><button type="button" class="buttonwater">WATER</button></td>
+                <td>530</td>							
+                <td>79</td>
+                <td>83</td>
+                <td>100</td>
+                <td>85</td>
+                <td>105</td>
+                <td>45</td>
+            </tr>
+            <tr id="10">
+                <td><img src="image/Pokedex/mew.avif" alt="" class="imagePoke"></td>
+                <td>10</td>
+                <td>Mew</td>
+                <td><button type="button" class="buttonpsychic">PSYCHIC</button></td>
+                <td>600</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr id="11">
+                <td><img src="image/Pokedex/mewtwo.avif" alt="" class="imagePoke"></td>
+                <td>11</td>
+                <td>Mewtwo</td>
+                <td><button type="button" class="buttonpsychic">PSYCHIC</button></td>
+                <td>680</td>						
+                <td>106</td>
+                <td>110</td>
+                <td>90</td>
+                <td>154</td>
+                <td>90</td>
+                <td>130</td>
+            </tr>
+            <tr id="12">
+                <td><img src="image/Pokedex/solgaleo.avif" alt="" class="imagePoke"></td>
+                <td>12</td>
+                <td>Solgaleo</td>
+                <td><button type="button" class="buttonpsychic">PSYCHIC</button>
+                    <button type="button" class="buttonsteel">STEEL</button></td>
+                <td>680</td>
+                <td>137</td>						
+                <td>137</td>
+                <td>107</td>
+                <td>113</td>
+                <td>89</td>
+                <td>97</td>
+            </tr>
+            <tr id="13">
+                <td><img src="image/Pokedex/lunala.avif" alt="" class="imagePoke"></td>
+                <td>13</td>
+                <td>Lunala</td>
+                <td><button type="button" class="buttonpsychic">PSYCHIC</button>
+                    <button type="button"  class="buttonghost">GHOST</button></td>
+                <td>680</td>
+                <td>137</td>
+                <td>113</td>
+                <td>89</td>
+                <td>137</td>
+                <td>107</td>
+                <td>97</td>
+            </tr>
+            <tr id="14">
+                <td><img src="image/Pokedex/zacian-crowned.avif" alt="" class="imagePoke"></td>
+                <td>14</td>
+                <td>Zacian</td>
+                <td><button type="button" class="buttonfairy">FAIRY</button>
+                    <button type="button" class="buttonsteel">STEEL</button></td>
+                <td>700</td>												
+                <td>92</td>
+                <td>150</td>
+                <td>115</td>
+                <td>80</td>
+                <td>115</td>
+                <td>148</td>
+            </tr>
+            <tr id="15">
+                <td><img src="image/Pokedex/zamazenta-crowned.avif" alt="" class="imagePoke"></td>
+                <td>15</td>
+                <td>Zamazenta</td>
+                <td><button type="button" class="buttonfighting">FIGHTING</button>
+                    <button type="button" class="buttonsteel">STEEL</button></td>
+                <td>700</td>						
+                <td>92</td>
+                <td>120</td>
+                <td>140</td>
+                <td>80</td>
+                <td>140</td>
+                <td>128</td>
+            </tr>
+            <tr id="16">
+                <td><img src="image/Pokedex/koraidon.avif" alt="" class="imagePoke"></td>
+                <td>16</td>
+                <td>Koraidon</td>
+                <td><button type="button" class="buttonfighting">FIGHTING</button>
+                    <button type="button" class="buttondragon">DRAGON</button></td>
+                <td>670</td>
+                <td>100</td>
+                <td>135</td>
+                <td>115</td>
+                <td>85</td>
+                <td>100</td>
+                <td>135</td>
+            </tr>
+            <tr id="17">
+                <td><img src="image/Pokedex/miraidon.avif" alt="" class="imagePoke"></td>
+                <td>17</td>
+                <td>Miraidon</td>
+                <td><button type="button" class="buttonelectric">ELECTRIC</button>
+                    <button type="button" class="buttondragon">DRAGON</button></td>
+                <td>670</td>												
+                <td>100</td>
+                <td>85</td>
+                <td>100</td>
+                <td>135</td>
+                <td>115</td>
+                <td>135</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="thongtin">
+            <h5>Thông tin</h5>
+            <p>Trang web cho xem các thẻ bài pokemon của mỗi seri</p>
+        </div>
+        <div class="Khac">
+            <h5>Nguồn tham khảo</h5>
+            <ul>
+                <li><a href="https://www.pokemon.com/us/pokemon-tcg">Pokemon TCG</a>
+                    <br>
+                    <a href="https://pokemondb.net/pokedex/all">pokemondb</a>
+                </li>
+            </ul>
+        </div>
+        <div class="lienhe">
+            <h5>Liên hệ</h5>
+            <a href="https://www.facebook.com/profile.php?id=100013749333231"><img src="image/lienhefb.png" alt=""
+                    style="width: 50px; height: 50px;"></a>
+        </div>
+    </div>
+</body>
+
+</html>

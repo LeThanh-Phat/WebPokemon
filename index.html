@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/javascript.js"></script>
+  <link rel="stylesheet" href="css/header-menu.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/slideshow.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+
+  <!-- div cua logo -->
+  <div class="logo">
+    <img src="image/logo.jpg" alt="" >
+  </div>
+
+  <!-- div cua menu -->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">
+      <div class="imagemenu">
+        <img src="image/IconMenu.png" alt="">
+        Home
+      </div>
+    </a>
+    <a href="Pokedex.html" class="active">
+      <div class="imagemenu">
+        <img src="image/Iconmenu2.png" alt="">
+        PokeDex
+      </div>
+    </a>
+    <a href="PokemonCards.html" class="active" id="pokemon-cards">
+      <div class="imagemenu">
+        <img src="image/Iconmenu3fix.png">
+        Pokemon Cards
+      </div>
+    </a>
+    <a href="trainer.html" class="active" id="seri">
+      <div class="imagemenu">
+        <img src="image/Iconmenu4.png" alt="">
+        Trainer card
+      </div>
+    </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!-- phan noi dung chinh -->
+  <div class="divmenu" id="content" style="display: flex;border-radius: 30px;">
+    <!-- Div trai -->
+    <div class="divmenuLeft" id="left">
+      <div class="divseries">
+        <h1 class="h1">All seri pokemon card</h1>
+        <div class="series-links">
+          <a href="scarlet&violet.html">
+            <img src="image/Scarlet-Violet.logo.363.png" alt="">
+          </a>
+          <a href="sword&shield.html">
+            <img src="image/Sword-Shield.logo.286.png" alt="">
+          </a>
+          <a href="Sun&Moon.html">
+            <img src="image/Sun-Moon.logo.205.png" alt="">
+          </a>
+        </div>
+        <h1 class="h1">Scarlet&Violet Poster</h1>
+        <div style="text-align: center">
+          <img id="imgposter" src="image/Scarlet&violet.png" alt="" title="Scarlet&Violet" style="height: 60%;">
+        </div>
+        <h1 class="h1">Sword-Shield Poster</h1>
+        <div style="text-align: center">
+          <img id="imgposter" src="image/SWSD.png" alt="" title="Scarlet&Violet">
+        </div>
+        <h1 class="h1">Sun-Moon Poster</h1>
+        <div style="text-align: center">
+          <img id="imgposter" src="image/Sunadndmoon.png" alt="" title="Scarlet&Violet">
+        </div>
+      </div>
+    </div>
+    <!-- div phai -->
+    <div class="divmenuRight" id="right">
+      <h1 class="h1" style="text-align: center;">Cards hot</h1>
+      <div class="cardHot">
+        <img src="image/Miraidon.png" alt="">
+        <p>Miraidon-Scarlet&Violet</p>
+      </div>
+      <div class="cardHot">
+        <img src="image/TrainerParasol Lady.png" alt="">
+        <p>Parasol Lady-Scarlet & Violet</p>
+      </div>
+      <div class="cardHot">
+        <img src="image/SWSH-shiny Charizard.png" alt="">
+        <p>Shiny Charizard-Sword & Sheild</p>
+      </div>
+      <div class="cardHot">
+        <img src="image/Sol_Luna.png" alt="">
+        <p>Solgageo&Lunala-Sun & Moon</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- slideshow -->
+  <div class="ss" style="background-color: silver;">
+    <div class="slideshow-container">
+      <div class="mySlides fade activeImg">
+        <img style="width: 1100%;height: 600px;" src="image/Pokemon-Scarlet-Violet-TCG-most-vaulable-cards.png"
+          title="Pokemon-Scarlet-Violet">
+      </div>
+      <div class="mySlides fade">
+        <img style="width: 100%;height: 600px;"
+          src="image/Featured-Image-Pokemon-The-Most-Valuable-Pokemon-Battle-Styles-Cards-Ranked.png"
+          title="Pokemon-Sword&Sheild">
+      </div>
+      <div class="mySlides fade">
+        <img style="width: 100%;height: 600px;" src="image/umbreon-mewtwo-alolan-golem-pokemon-gx.png"
+          title="Pokemon-Sun&Moon">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+  </div>
+
+<!-- footer -->
+<div class="footer">
+  <div class="thongtin">
+    <h5>Thông tin</h5>
+    <p>Trang web cho xem các thẻ bài pokemon của mỗi seri</p>
+  </div>
+  <div class="Khac">
+    <h5>Nguồn tham khảo</h5>
+    <ul>
+      <li><a href="https://www.pokemon.com/us/pokemon-tcg">Pokemon TCG</a>
+        <br>
+        <a href="https://pokemondb.net/pokedex/all">pokemondb</a>
+      </li>
+    </ul>
+  </div>
+  <div class="lienhe">
+    <h5>Liên hệ</h5>
+    <a href="https://www.facebook.com/profile.php?id=100013749333231"><img src="image/lienhefb.png" alt=""
+        style="width: 50px; height: 50px;"></a>
+  </div>
+</div>
+</body>
+
+</html>
